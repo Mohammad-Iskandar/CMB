@@ -646,11 +646,11 @@ audio::-webkit-media-controls-current-time-display {
         transform: translate(0%);
     }
 }
-@media (max-width:360px)
+@media (max-width:410px)
 {
     .book .photo img
     {
-        width: 310px;
+        width: 330px !important;
     }
 }
 @media (max-width:599px)
