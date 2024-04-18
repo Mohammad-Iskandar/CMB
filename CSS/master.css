@@ -646,19 +646,26 @@ audio::-webkit-media-controls-current-time-display {
         transform: translate(0%);
     }
 }
+@media (max-width:360px)
+{
+    .book .photo img
+    {
+        width: 310px;
+    }
+}
 @media (max-width:599px)
 {
     .book.one:hover
     {
-        height: 830px;
+        height: 850px;
     }
     .book.two:hover
     {
-        height: 950px;
+        height: 1000px;
     }
     .book.three:hover
     {
-        height: 1030px;
+        height: 1050px;
     }
     .book.four:hover
     {
@@ -666,25 +673,25 @@ audio::-webkit-media-controls-current-time-display {
     }
     .book.five:hover
     {
-        height: 830px;
+        height: 850px;
     }
     .book.six:hover {
-        height: 800px;
+        height: 820px;
     }
     .book.seven:hover {
-        height: 861px;
+        height: 890px;
     }
     .book.eight:hover {
         height: 730px;
     }
     .book.nine:hover {
-        height: 840px;
+        height: 880px;
     }
     .book.ten:hover {
-        height: 930px;
+        height: 950px;
     }
     .book.eleven:hover {
-        height: 770px;
+        height: 800px;
     }
     .welcome .intro
     {
@@ -701,7 +708,7 @@ audio::-webkit-media-controls-current-time-display {
     }
     .book .photo img
     {
-        width: 320px;
+        width: 370px;
     }
     .welcome .intro h2 {
         font-size: 40.9px !important;
@@ -723,7 +730,7 @@ audio::-webkit-media-controls-current-time-display {
 @media (max-width:713px)
 {
     footer.land-footer {
-        bottom: -4620px;
+        bottom: -4650px;
         height: 120px;
     }
     footer.land-footer .me
